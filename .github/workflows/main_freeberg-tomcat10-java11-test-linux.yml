@@ -6,7 +6,7 @@ name: Build and deploy WAR app to Azure Web App - freeberg-tomcat10-java11-test-
 on:
   push:
     branches:
-      - main
+      - java-11
   workflow_dispatch:
 
 jobs:
